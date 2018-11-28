@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+    	<add id="Mmsbuilder_Connector::second_level_example" 
+			 title="Manage Banners" 
+			 module="Mmsbuilder_Connector" 
+			 sortOrder="13"  
+			 resource="Magento_Backend::content"
+			 
+			 parent="Mmsbuilder_Connector::advanced_connector" 
+			 action="grid/grid"	
+
+		/>
+    </menu>
+</config>
